@@ -7,3 +7,9 @@
 5. Contact Dermatitis
 6. Rosacea
 7. Basal Cell Carcinoma
+8. Melanoma
+9. Psoriasis
+10. Hives
+11. Candidiasis
+
+Todo - More images for normal acne
