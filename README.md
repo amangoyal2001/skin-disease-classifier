@@ -2,8 +2,8 @@
 
 1. Acne (Acne vulgaris) - Done
 2. Atopic dermatitis (Eczema) - Done
-3. Shingles (Herpes Zoster)
-4. Hives (Urticaria)
+3. Shingles (Herpes Zoster) - Done
+4. Hives (Urticaria) - Done
 5. Contact Dermatitis
 6. Rosacea - Done
 7. Basal Cell Carcinoma
