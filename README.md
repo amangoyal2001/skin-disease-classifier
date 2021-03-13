@@ -8,6 +8,6 @@
 6. Rosacea - Done
 7. Basal Cell Carcinoma
 8. Melanoma
-9. Psoriasis
+9. Psoriasis - Done
 10. Corn - Done
 11. Horn - Done
