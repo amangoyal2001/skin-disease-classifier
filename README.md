@@ -11,4 +11,5 @@
 9. Psoriasis
 10. Hives
 11. Candidiasis
-12. Corn
+12. Corn - Done
+13. Horn
