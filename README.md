@@ -7,7 +7,7 @@
 5. Contact Dermatitis - Done
 6. Rosacea - Done
 7. Basal Cell Carcinoma
-8. Melanoma
+8. Melanoma - Done
 9. Psoriasis - Done
 10. Corn - Done
 11. Horn - Done
