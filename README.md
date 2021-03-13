@@ -9,7 +9,5 @@
 7. Basal Cell Carcinoma
 8. Melanoma
 9. Psoriasis
-10. Hives
-11. Candidiasis
-12. Corn - Done
-13. Horn
+10. Corn - Done
+11. Horn - Done
