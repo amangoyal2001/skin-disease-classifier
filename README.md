@@ -1,3 +1,5 @@
+# Skin Disease Classifier using TensorflowJS.
+
 ## Diseases
 
 1. Acne (Acne vulgaris) - Done
