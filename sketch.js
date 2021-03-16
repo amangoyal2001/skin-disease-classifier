@@ -7,6 +7,8 @@
 let video;
 // For displaying the label
 let label = "waiting...";
+
+let confidence = 'calculating'
 // The classifier
 let classifier;
 let modelURL = 'https://teachablemachine.withgoogle.com/models/4pbv0d_vM/';
