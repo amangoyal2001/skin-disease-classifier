@@ -2,6 +2,18 @@ const fileInput = document.getElementById("file-input");
 const image = document.getElementById("image");
 let model;
 
+function displayDescription(predictions) {
+    const result = predictions.sort((a, b) => a > b)[0];
+
+    if (result.probability > 0.4) {
+        const probability = Math.round(result.probability * 100);
+
+        // Display result
+        description.innerText = `${probability}% sure this is a ${result.className}`;
+    } 
+    else description.innerText = "I am not shure what I should recognize";
+}
+
 function classifyImage() {
     model.classify(image).then((predictions) => {
         displayDescription(predictions);
