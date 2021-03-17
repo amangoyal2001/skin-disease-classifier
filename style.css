@@ -1,21 +1,23 @@
 html, body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 canvas {
-  animation: 5s 0s ease;
+  border-radius: 10px;
   display: block;
+  margin: auto;
+  width: 70%!important;
 }
 
-@keyframes fadeIn{
-  0%{
-    opacity: 0;
-  }
-  100%{
-    opacity: 1;
-  }
-}
 .loader{
+  overflow: hidden;
   position: absolute;
   top: 0;
   left: 0;
@@ -29,6 +31,12 @@ canvas {
 
 .loader img{
   width: 20%;
+}
+
+@media(min-width: 1000px){
+  .loader img{
+    width: 15%;
+  }
 }
 
 .hide-loader{
