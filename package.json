@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/ishubham21/skin-disease-classifier/issues"
   },
-  "homepage": "https://github.com/ishubham21/skin-disease-classifier#readme"
+  "homepage": "https://github.com/ishubham21/skin-disease-classifier#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
