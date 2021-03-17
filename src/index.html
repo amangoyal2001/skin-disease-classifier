@@ -12,10 +12,16 @@
 
   </head>
 
-  <body>
+  <body class="loading">
     <main>
+
       <section class="image-section">
         <img src="" id="image" />
+      </section>
+
+      <section class="image-section">
+        <img src="" id="image" />
+        <div class="image-prediction"></div>
       </section>
 
       <section class="file-section">
@@ -26,7 +32,12 @@
       </section>
     </main>
 
+    <!-- TensorFlow-->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.0.0/dist/tf.min.js"></script>
+    <!-- TensorFlow pretrained model-->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@1.0.0"></script>
     <script src="app.js"></script>
+
   </body>
 
 </html>
