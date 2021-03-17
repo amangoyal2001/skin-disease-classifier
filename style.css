@@ -3,5 +3,35 @@ html, body {
   padding: 0;
 }
 canvas {
+  animation: 5s 0s ease;
   display: block;
+}
+
+@keyframes fadeIn{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+.loader{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loader img{
+  width: 20%;
+}
+
+.hide-loader{
+  visibility: hidden;
+  pointer-events: none;
 }
