@@ -1,0 +1,29 @@
+{
+  "name": "skin_disease_classifier",
+  "version": "1.0.0",
+  "description": "An online appliction to predict skin diseases using machine learning and tensorflowJS",
+  "main": "ml5.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ishubham21/skin-disease-classifier.git"
+  },
+  "keywords": [
+    "machine",
+    "learning",
+    "tensorflow",
+    "website",
+    "js",
+    "skin",
+    "diseases",
+    "classifier"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ishubham21/skin-disease-classifier/issues"
+  },
+  "homepage": "https://github.com/ishubham21/skin-disease-classifier#readme"
+}
