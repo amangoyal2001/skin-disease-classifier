@@ -19,7 +19,7 @@ canvas {
 
 @media (max-width: 990px){
   canvas{
-    height: 80%!important;
+    height: 60%!important;
   }
 }
 
@@ -35,6 +35,7 @@ canvas {
   justify-content: center;
   align-items: center;
   z-index: 200;
+  transition: 2s;
 }
 
 .loader img{
