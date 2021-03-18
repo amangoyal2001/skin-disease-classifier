@@ -12,3 +12,9 @@ navigator.getUserMedia({ video: true }, function () {
     location.reload()
 });
 
+var cross = document.querySelector('.cross')
+var popup = document.querySelector('.instructions')
+cross.addEventListener('click', () => {
+    popup.classList.add('display-none')
+})
+
