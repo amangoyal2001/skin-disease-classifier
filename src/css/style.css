@@ -36,7 +36,9 @@ html, body{
 .choose-pref{
     height: 100vh;
     width: 100%;
-
+    font-size: 20px;
+    font-weight: 600;
+    color: #2a7fba;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,6 +49,7 @@ html, body{
 .choose-pref .btns{
     display: flex;
     margin-top: 15px;
+    
 }
 
 .btn-choose{
@@ -117,14 +120,27 @@ input{
 }
 
 
+#btn-predict{
+    padding: 10px 15px;
+    background-color: #fff;
+    outline: none;
+    display: block;
+    margin: 15px auto;
+    cursor: pointer;
+    border: 1px solid #2a7fba;
+    transition-duration: 0.3s;
+    border-radius: 5.5px;
+    
+}
 
+#btn-predict:hover{
+    background-color:  #2a7fba;
+    color: #fff;
+}
 
-
-
-
-
-
-
+#imagePreview{
+    margin-top: 20px;
+}
 
 
 
