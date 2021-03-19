@@ -29,27 +29,24 @@
         <button id="from-file" class="btn-choose" data-target="import">Import File</button>
         <button id="real-time" class="btn-choose" data-target="realTime">Real Time</button>
     </div>
+
     <div class="container">
         <div id="content" style="margin-top:2em">
-                <form id="upload-file" method="post" enctype="multipart/form-data">
-                    <label for="imageUpload" class="upload-label">
+                
+            <form id="upload-file" method="post" enctype="multipart/form-data">
+                <label for="imageUpload" class="upload-label">
                         Choose Your File
-                    </label>
-                    <input type="file" name="image" id="imageUpload" accept=".png, .jpg, .jpeg, .webp, .jiff">
-                </form>
+                </label>
+                <input type="file" name="image" id="imageUpload" accept=".png, .jpg, .jpeg, .webp, .jiff">
+            </form>
 
-                <div class="image-section" style="display:none;">
-                    <img id="imagePreview" width="800px" height="600px"/>
-                    <div>
-                      <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Predict!</button>
-                    </div>
+            <div class="image-section" style="display:none;">
+                <img id="imagePreview" width="800px" height="600px"/>
+                <div>
+                    <button type="button" class="btn btn-primary btn-lg " id="btn-predict">Predict</button>
                 </div>
+            </div>
 
-                <h5 id="result">
-                    <span> </span>
-                </h5>
-
-                <div class="loader" style="display:none;"></div>
         </div>
     </div>
 
