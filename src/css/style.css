@@ -1,5 +1,6 @@
 html, body{
     overflow-x: hidden;
+    font-family: 'Montserrat';
 }
 
 *{
@@ -8,7 +9,7 @@ html, body{
 }
 
 .pre-loader{
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     background-color: #fff;
@@ -20,6 +21,7 @@ html, body{
     align-items: center;
 
     transition: 1s ease;
+    pointer-events: none;
 }
 
 .pre-loader img{
@@ -65,14 +67,54 @@ html, body{
     color: #fff;
 }
 
-.container, canvas{
+.selectFile-container, canvas{
     display: none;
 }
 
+.selectFile-container{
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
+}
 
+.input-inner{
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 40px;
+    border: 1.5px solid #ddd;
+    border-radius: 10px;
+    transition: 0.3s;
+}
 
+.input-inner:hover{
+    border-color: #2a7fba;
+}
 
+label, input{
+    display: block;
+    text-align: center;
+    font-size: 27px;
+}
+
+label{
+    font-weight: 600;
+    color: #2a7fba;
+}
+
+input{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#imageUpload{
+    padding: 10px 15px;
+    background-color: #fff;
+}
 
 
 

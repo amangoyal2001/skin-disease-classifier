@@ -2,7 +2,9 @@ var preLoader = document.querySelector('.pre-loader')
 
 window.addEventListener('load', () => {
     preLoader.classList.add('hide-loader')
+    $('.selectFile-container').hide()
 })
+
 
 var chooseBtns = document.querySelectorAll('.btn-choose')
 for (let i = 0; i < chooseBtns.length; i++) {
@@ -11,10 +13,10 @@ for (let i = 0; i < chooseBtns.length; i++) {
         $('.choose-pref').hide()
          
         if (chooseBtns[i].getAttribute('data-target') == 'import') {
-            $('.container').show()
+            $('.selectFile-container').show()
         }
         else{
-            alert('hello2')
+            
         }
     })
 }
