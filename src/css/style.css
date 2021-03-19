@@ -1,4 +1,72 @@
+html, body{
+    overflow-x: hidden;
+}
 
+.pre-loader{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    transition: 1s ease;
+}
+
+.pre-loader img{
+    width: 11%;
+}
+
+.hide-loader{
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.choose-pref{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .btn {
     width: 134px;
     height: 48px;
@@ -58,9 +126,9 @@ input[type="file"] {
 }
 
 .loader {
-    border: 8px solid #f3f3f3; /* Light grey */
+    border: 8px solid #f3f3f3; /* Light grey
     border-top: 8px solid #3498db; /* Blue */
-    border-radius: 50%;
+    /* border-radius: 50%;
     width: 50px;
     height: 50px;
     animation: spin 1s linear infinite;
@@ -69,4 +137,6 @@ input[type="file"] {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
-}
+} */
+
+

@@ -1,12 +1,7 @@
 $(document).ready(async function () {
-    
-    // Init
     $('.image-section').hide();
     $('.loader').hide();
     $('#result').hide();
-
-    let net;
-    let isModelLoaded = false;
 
     // Upload Preview
     function readURL(input) {
@@ -66,16 +61,6 @@ $(document).ready(async function () {
         // Show loading animation
         $(this).hide();
         $('.loader').show();
-
-        // Load the model.
-        // if (isModelLoaded) {
-        //     console.log('Previously loaded');
-        // } else {
-        //     $('#result').show().fadeIn(600).text('Model is loading, please wait..');
-        //     net = await mobilenet.load();
-        //     console.log('Model loaded');
-        //     isModelLoaded = true;
-        // }
 
         // Make a prediction through the model on our image.
         const imgEl = document.getElementById('imagePreview');

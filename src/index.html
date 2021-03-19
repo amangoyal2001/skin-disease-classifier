@@ -9,8 +9,7 @@
 
     <link href="./css/style.css" rel="stylesheet">      
 
-    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
 
     <script src="./ml-js/p5.js"></script>
     <script src="./ml-js/p5.dom.min.js"></script>
@@ -20,11 +19,21 @@
 </head>
 
 <body>
+
+    <div class="pre-loader">
+        <img src="imgs/loader.gif" alt="pre-loader">
+    </div>
+
+    <div class="choose-pref">
+        <h3>Select your preference</h3>
+        <button id="from-file" class="btn-choose" data-target="import">Import File</button>
+        <button id="real-time" class="btn-choose" data-target="realTime">Real Time</button>
+    </div>
     <div class="container">
         <div id="content" style="margin-top:2em">
                 <form id="upload-file" method="post" enctype="multipart/form-data">
                     <label for="imageUpload" class="upload-label">
-                        Choose...
+                        Choose Your File
                     </label>
                     <input type="file" name="image" id="imageUpload" accept=".png, .jpg, .jpeg, .webp, .jiff">
                 </form>
@@ -45,6 +54,7 @@
     </div>
 
     <script src="./js/app.js" type="text/javascript"></script>
+    <script src="./js/function.js"></script>
 
 </body>
 </html>
